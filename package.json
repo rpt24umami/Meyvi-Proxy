@@ -1,0 +1,19 @@
+{
+  "name": "meyvi-proxy",
+  "version": "1.0.0",
+  "description": "proxy for FEC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpt24umami/Meyvi-Proxy.git"
+  },
+  "author": "Meyvi Medina-Magarino",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/rpt24umami/Meyvi-Proxy/issues"
+  },
+  "homepage": "https://github.com/rpt24umami/Meyvi-Proxy#readme"
+}

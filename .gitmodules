@@ -1,3 +1,6 @@
 [submodule "tptQandAService"]
 	path = tptQandAService
 	url = https://github.com/rpt24umami/tptQandAService.git
+[submodule "tptReviewsService"]
+	path = tptReviewsService
+	url = https://github.com/rpt24umami/tptReviewsService.git

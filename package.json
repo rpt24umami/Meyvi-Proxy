@@ -2,9 +2,11 @@
   "name": "meyvi-proxy",
   "version": "1.0.0",
   "description": "proxy for FEC",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node server.js",
+    "webpack": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,18 @@
   "bugs": {
     "url": "https://github.com/rpt24umami/Meyvi-Proxy/issues"
   },
-  "homepage": "https://github.com/rpt24umami/Meyvi-Proxy#readme"
+  "homepage": "https://github.com/rpt24umami/Meyvi-Proxy#readme",
+  "dependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.7",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.2.0"
+  }
 }

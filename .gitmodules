@@ -4,3 +4,9 @@
 [submodule "tptReviewsService"]
 	path = tptReviewsService
 	url = https://github.com/rpt24umami/tptReviewsService.git
+[submodule "tptImageModule"]
+	path = tptImageModule
+	url = https://github.com/rpt24umami/tptImageModule.git
+[submodule "tptDescriptionAndStandards"]
+	path = tptDescriptionAndStandards
+	url = https://github.com/rpt24umami/tptDescriptionAndStandards.git

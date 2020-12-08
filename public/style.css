@@ -12,7 +12,8 @@
 
 #cart {
   float: right;
-  width: 25%; margin-right: 15%;
+  width: 25%;
+  margin-right: 10%;
 }
 
 #cartImg {
@@ -24,3 +25,8 @@
   width: 45%;
   margin-left:5%
 }
+
+#nav {
+ margin-left: 5%;
+}
+

@@ -7,10 +7,6 @@ const port = 3000;
 app.use(cors());
 app.use(express.static(path.join(__dirname,'../dist')));
 
-// app.get('/products/:id', (req, res) => {
-//   res.sendFile('/Users/Meyvi/Documents/Hack_Reactor/FEC/Meyvi-Proxy/public/index.html');
-// });
-
 app.get('/products/:id', (req, res) => {
   if (req.params.id === 'bundle.js') {
     res.sendFile(path.resolve(__dirname, 'public/bundle.js'));
@@ -27,7 +23,11 @@ app.get('/Reviews.jpg', (req, res) => {
 
 app.get('/Cart.jpg', (req, res) => {
   res.sendFile(path.resolve(__dirname, 'public/Cart.jpg'));
-})
+});
+
+app.get('/Top.jpg', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'public/Top.jpg'));
+});
 
 app.listen(3000, () => {
   console.log('server listening at 3000');

@@ -8,30 +8,51 @@
       <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
       <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
 
-      <div id="nav">
-        <img id="top" src="http://localhost:3000/Top.jpg">
-      </div>
-      <div id="cart">
-        <img id="cartImg" src="http://localhost:3000/Cart.jpg">
-      </div>
-      <div id="left">
-        <div id="images"></div>
-        <div id="DescriptionandStandards"></div>
-        <img id="revImg"src="http://localhost:3000/Reviews.jpg">
-        <div id="review"></div>
-        <div id="QandA"></div>
+      <div class="pagecontainer">
+        <div id="top">
+          <img id="logo" src="http://localhost:3000/Logo.jpg">
+          <div id="nav">
+            <a>About Us</a>
+            <a>Gift Cards</a>
+            <a>Help</a>
+            <a>TpT Digital Activities</a>
+            <a>TpT School Access</a>
+            <a>TpT Class</a>
+            <a>Fund</a>
+          </div>
+        </div>
+
+        <div id="search">
+          <select>
+            <option>Browse</option>
+          </select>
+          <form id="search-form">
+            <input type="text" value="Serch">
+          </form>
+        </div>
+
+        <div id="cart">
+          <img id="cartImg" src="http://localhost:3000/Cart.jpg">
+        </div>
+        <div id="widgets">
+          <div id="images"></div>
+          <div id="DescriptionandStandards"></div>
+          <img id="revImg"src="http://localhost:3000/Reviews.jpg">
+          <div id="review"></div>
+          <div id="QandA"></div>
+        </div>
       </div>
 
       <script src="http://localhost:3003/bundle.js"></script>
-      <link rel='stylesheet' href="http://localhost:3003/style.css">
+      <link rel='stylesheet' href="http://localhost:3003/style.css"/>
 
       <script src="http://localhost:3001/bundle.js"></script>
-      <link rel='stylesheet' href="http://localhost:3001/styles.css">
+      <link rel='stylesheet' href="http://localhost:3001/styles.css"/>
 
       <script src="http://localhost:3002/bundle.js"></script>
-      <link rel='stylesheet' href="http://localhost:3002/index.css">
+      <link rel='stylesheet' href="http://localhost:3002/index.css"/>
 
       <script src="http://localhost:3004/bundle.js"></script>
-      <link rel='stylesheet' href="http://localhost:3004/style.css">
+      <link rel='stylesheet' href="http://localhost:3004/style.css"/>
   </body>
 </html>

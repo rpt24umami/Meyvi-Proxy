@@ -18,15 +18,15 @@ app.get('/products/:id', (req, res) => {
 });
 
 app.get('/Reviews.jpg', (req, res) => {
-  res.sendFile(path.resolve(__dirname, 'public/Reviews.jpg'));
-});
+    res.sendFile(path.resolve(__dirname, 'public/Reviews.jpg'));
+})
 
 app.get('/Cart.jpg', (req, res) => {
-  res.sendFile(path.resolve(__dirname, 'public/Cart.jpg'));
+    res.sendFile(path.resolve(__dirname, 'public/Cart.jpg'));
 });
 
-app.get('/Top.jpg', (req, res) => {
-  res.sendFile(path.resolve(__dirname, 'public/Top.jpg'));
+app.get('/Logo.jpg', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'public/Logo.jpg'));
 });
 
 app.listen(3000, () => {

@@ -1,0 +1,1 @@
+ssh -i '/Users/Meyvi/Documents/Hack_Reactor/FEC/aws-proxy-1/tpt-proxy-1.pem' ubuntu@ec2-18-221-71-203.us-east-2.compute.amazonaws.com

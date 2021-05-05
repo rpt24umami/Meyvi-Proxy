@@ -2,6 +2,8 @@
 
 > A reverse proxy recreating the website TeachersPayTeachers with service oriented architecture.
 
+![](tptProxy.gif)
+
 ## Related Projects
 
   - https://github.com/rpt24umami/tptQandAService
